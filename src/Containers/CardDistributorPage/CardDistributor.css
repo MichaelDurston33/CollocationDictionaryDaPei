@@ -1,0 +1,74 @@
+body {
+  height: 100%;
+  background-image:url('../../assets/images/chinaBackdrop.jpg');
+}
+
+.CardDistributor {
+  height: 9vh;
+  width: 100%;
+  padding-bottom: 2px;
+  background-color: #001b15;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  border-bottom: 0.5px solid white;
+}
+
+.background {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+.Searchbar {
+  position: absolute;
+  top: 29%;
+  left: 50%;
+  transform: translate(-50%, 3%);
+  width: 60vh;
+  height: 5vh;
+  border-radius: 4px;
+  font-size: 4vh;
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  color: white;
+}
+
+.SearchText {
+  letter-spacing: 3px;
+  color: white;
+  left: 37%;
+  position: absolute;
+  top: 1%;
+  font-size: 2vh
+}
+
+.cardBox {
+  top: 10.5vh;
+  left: 10%;
+  position: absolute;
+  width: 70%;
+  display: flex;
+  align-items: flex-start;
+  background-color: transparent;
+  flex-wrap: wrap;
+}
+
+
+
+.homeButton {
+  opacity: 1;
+  background-color: #dc0000;
+  padding: 3px;
+  border: none;
+  color: white;
+  position: absolute;
+  left: 80%;
+  top: 0%;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}

@@ -1,0 +1,100 @@
+@keyframes flicker {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+body {
+  height: 100%;
+  background-image:url('../../assets/images/chinaBackdrop.jpg')
+}
+
+.homeButton {
+  opacity: 1;
+  background-color: #dc0000;
+  padding: 3px;
+  border: none;
+  color: white;
+  position: absolute;
+  left: 80%;
+  top: 0%;
+}
+
+.BackButton {
+  opacity: 1;
+  background-color: #dc0000;
+  padding: 3px;
+  margin-left: 10px;
+  border: none;
+  color: white;
+  position: absolute;
+  left: 84%;
+  top: 0%;
+}
+
+.CardFullView {
+  height: 70vh;
+  width: 20vh;
+  background-color: transparent;
+  border: 3px solid white;
+  color: white;
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%, 8%);
+  position: absolute;
+  text-align: center;
+  background:
+  radial-gradient(circle at 0% 50%, rgba(96, 16, 48, 0) 9px, #caa375 10px, rgba(96, 16, 48, 0) 11px) 0px 10px,
+  radial-gradient(at 100% 100%,      rgba(96, 16, 48, 0) 9px, #caa375 10px, rgba(96, 16, 48, 0) 11px),
+  transparent;
+  background-size: 20px 20px;
+  animation-name: flicker;
+  animation-duration: 1s;
+}
+
+.SupportingInfoBox {
+  position: relative;
+  font-size: 2.5vh;
+  top: 24%;
+  width: 80%;
+  left: 10%;
+}
+
+.SpeakButton {
+  color: white;
+  background-color: #eac396;
+  border: none;
+  font-size: 6vh;
+  height: 80px;
+  border-radius: 100px;
+  position: absolute;
+  top: 60%;
+  left: 31%;
+  opacity: 0.93;
+}
+
+.ChineseText {
+  color: #eac396;
+  font-size: 3.8vh;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  position: absolute;
+  top: 75%;
+  left: -19%;
+}
+
+.TranslateSentenceBox {
+  top: 2%;
+  left: 0%;
+  font-size: 3.5vh;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.background {
+  height: 100vh;
+  width: 100%;
+  overflow: auto;
+}

@@ -1,0 +1,15 @@
+.Cards {
+  min-width: 180px;
+  min-height: 100px;
+  max-height: 140px;
+  padding: 8px;
+  font-weight: bold;
+  border: 2px solid #001b15;
+  margin-left: 5px;
+  margin-top: 7px;
+  background-color: white;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 1px 2px 3px 1px gray;
+  line-height: 1.6;
+}

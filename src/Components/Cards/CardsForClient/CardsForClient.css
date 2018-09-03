@@ -1,0 +1,36 @@
+@keyframes flicker {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes showHighlighted {
+  from {border-color: white; color: white;}
+  to {border-color: red; color: #caa375;}
+}
+
+.Cards {
+  min-height: 20px;
+  font-size: 6vh;
+  font-weight: bold;
+  padding: 15px;
+  border: 4px solid white;
+  margin-left: 5px;
+  margin-top: 7px;
+  background-color: transparent;
+  border-radius: 4px;
+  margin-left: 15px;
+  line-height: .8;
+  color: white;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  flex-shrink: 2;
+  animation: flicker var(--animation-time) ease alternate;
+  transition: color;
+  transition: border-color;
+  transition-duration: 0.7s
+}
+
+.Cards:hover {
+  color: #caa375;
+  border-color: red;
+}

@@ -1,0 +1,8 @@
+.Character {
+  margin: 2px;
+
+}
+
+.Character:hover {
+  border: 1px solid white;
+}

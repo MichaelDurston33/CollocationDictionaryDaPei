@@ -1,0 +1,80 @@
+
+
+.AddCardToDatabase {
+  min-height: 30%;
+  width: 100%;
+  position: absolute;
+  background-color: #001b15;
+  display: flex;
+}
+
+.cardBox {
+  position: absolute;
+  top: 31%;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+.ChineseInput {
+  position:absolute;
+  color: white;
+  text-align: center;
+  top: 24.5%;
+  left: 15%;
+}
+
+.reminder {
+  font-size: 1.5vh;
+}
+
+.EnglishInput {
+  position: absolute;
+  /* color: #ff0000; */
+  color: white;
+  text-align: center;
+  top: 35%;
+  left: 35%;
+}
+
+.HskInput {
+  position: absolute;
+  text-align: center;
+  color: white;
+  top: 35%;
+  left: 55%;
+}
+.PinyinInput {
+  position: absolute;
+  color: white;
+  text-align: center;
+  top: 35%;
+  left: 75%
+}
+
+.SubmitButton {
+  background-color: red;
+  border: none;
+  color: white;
+  top: 80%;
+  position: absolute;
+  left: 41%;
+  width: 30vh;
+}
+
+.SubmitButton:hover {
+  cursor: pointer;
+}
+
+.homeButton {
+  opacity: 1;
+  background-color: #dc0000;
+  border: none;
+  color: white;
+  position: absolute;
+  left: 80%;
+  top: 0%;
+  background-color: red;
+}
