@@ -58,8 +58,6 @@ class CardFullView extends Component {
       return <FragmentedSentenceWords characterOrWord={key} key={index} />
     })
 
-
-
     return (
       <Aux>
         <button className={classes.homeButton}><a href="/Home">Home</a></button>

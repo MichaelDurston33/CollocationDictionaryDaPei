@@ -146,7 +146,7 @@ class CardDistributor extends Component {
           <Backdrop show={this.state.loading} />
           <div className={classes.CardDistributor}>
             <div className={classes.SearchText}>Search Characters or HSK levels.</div>
-            <input type="text" className={classes.Searchbar} onChange={this.searchTermHandler} autofocus="true"></input>
+            <input type="text" className={classes.Searchbar} onChange={this.searchTermHandler} autoFocus="true"></input>
             <button className={classes.homeButton} ><a href="/Home" >Home</a></button>
            </div>
            <div className={classes.cardBox}>
