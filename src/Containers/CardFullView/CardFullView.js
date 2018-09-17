@@ -60,7 +60,7 @@ class CardFullView extends Component {
 
     return (
       <Aux>
-        <button className={classes.homeButton}><a href="/Home">Home</a></button>
+        <button className={classes.homeButton}><a href="/">Home</a></button>
         <button className={classes.BackButton}><a href="/Cards">Back</a></button>
 
         <div className={classes.CardFullView} >
