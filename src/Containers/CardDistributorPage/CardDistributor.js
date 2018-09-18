@@ -14,7 +14,7 @@ class CardDistributor extends Component {
     super(props)
     this.onChangeHandlerEnglish = this.searchTermHandler.bind(this);
     this.state = {
-      //"cards" is a big scary database object which needs to have
+      //"cards" is a big database object which needs to have
       //Object.keys ran on it to do anything meaningful.
       cards: [],
       //searchTerm is the search query entered by the client.
@@ -31,7 +31,7 @@ class CardDistributor extends Component {
 
   componentDidMount() {
     //this will add more tiles to the page when the user has
-    //scrolled to the bottom. It does this buy checking the user's
+    //scrolled to the bottom. It does this by checking the user's
     //current position to the scrollable length.
     document.addEventListener('scroll', () => {
       var offset = document.documentElement.scrollTop + window.innerHeight;

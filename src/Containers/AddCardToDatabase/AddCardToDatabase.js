@@ -186,10 +186,11 @@ class AddCardToDatabase extends Component {
             <input type="submit" value={"Submit"} className={classes.SubmitButton}/>
       </form>
         <Backdrop show={this.state.loading} />
-        <button className={classes.homeButton}><a href="/Home">Home</a></button>
+        <button className={classes.homeButton}><a href="/">Home</a></button>
       </div>
       <div className={classes.cardBox}>
         {posts}
+
       </div>
     </Aux>
     )
